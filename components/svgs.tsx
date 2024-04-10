@@ -93,6 +93,7 @@ export const LinkedIcon = ({ className, fill }: SvgProps) => {
     >
       <mask
         id="mask0_651_39"
+        //@ts-ignore
         style="mask-type:alpha"
         maskUnits="userSpaceOnUse"
         x="1"
