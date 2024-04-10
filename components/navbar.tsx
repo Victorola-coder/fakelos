@@ -15,8 +15,10 @@ const Navbar = () => {
               VickyJay<span>.</span>
             </h2> */}
             <Link href="/">
-              VickyJay<span>!</span>
-              <span>⚡</span>
+              <h4 className="`before:content-[''] font-clashbold font-semibold text-[18px] md:text-[25px] lg:hover:before:bg-[#4C686F]s active:scale-[0.86] transition-all duration-100 before:absolute before:h-1 before:-bottom-1 before:transition-all before:duration-300">
+                VickyJay<span>!</span>
+                <span>⚡</span>
+              </h4>
             </Link>
             <div className="text-[#FFFFFF99] hover:text-white transition-all duration-300">
               <a

@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        pop: ['Poppins', "sans-serif"],
+        pop: ["Poppins", "sans-serif"],
         clash: ["clash", "sans-serif"],
-        clashbold: ["clashBold", "sans-serif"]
+        clashbold: ["clashBold", "sans-serif"],
       },
       screens: {
         sm: "576px",
@@ -20,7 +20,6 @@ const config: Config = {
         xl: "1220px",
         xxl: "1400px",
       },
-    },
     },
   },
   plugins: [],

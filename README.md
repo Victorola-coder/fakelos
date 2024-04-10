@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# VickyJay - Personal Portfolio Website
 
-## Getting Started
+![VickyJay's Portfolio Screenshot](/public/images/cover.png)
 
-First, run the development server:
+Welcome to my personal portfolio! This project showcases my frontend development skills and projects I've worked on. Feel free to explore the different sections to learn more about me and my work.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- TypeScript - The typescript programming language
+- NextJs: A popular JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for rapidly styling web applications.
+- React Router: A library for managing routing and navigation in a React application.
+- Framer Motion: A motion library for creating smooth animations and transitions.
+- React Icons: A library providing a wide range of icons for your projects.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Responsive design: The portfolio is fully responsive to ensure a seamless experience on different devices.
+- Smooth animations: Framer Motion is used to add elegant animations and transitions.
+- Easy navigation: React Router allows for smooth navigation between different sections of the portfolio.
+- Project showcase: A dedicated section to showcase my projects with descriptions and links.
+- Contact information: Users can easily get in touch with me through provided contact details.
 
-## Learn More
+## Installation and Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository to your local machine using `git clone`.
+2. Navigate to the project directory: `cd vickyjay`.
+3. Install project dependencies using `npm install`.
+4. Start the development server: `npm run dev`.
+5. Open your web browser and navigate to `http://localhost:3301` to view the portfolio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Feel free to customize this portfolio to showcase your own projects and skills. Update the project descriptions, images, and links to match your work.
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you have any questions or would like to get in touch, you can reach me at:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Email: victoluolatunji@gmail.com
+- GitHub: [Vitorola-coder](https://github.com/Victorla-coder)
+- Portfolio: [preview](https://tolu.vercel.app)
+
+Thank you for visiting my portfolio!
+
+## Todos
+
+- add few sleazy animation.
+- change the experience section into an array and map it.
+- change the services section into an array and map it.
+- 404 page - done ✔✔
+- more features yet to come.
