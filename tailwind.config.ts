@@ -20,6 +20,9 @@ const config: Config = {
         xl: "1220px",
         xxl: "1400px",
       },
+      colors: {
+        primary: "#FFFFFF99",
+      },
     },
   },
   plugins: [],
