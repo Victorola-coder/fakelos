@@ -30,10 +30,10 @@ const Contact = () => {
         <h3
           className={`font-medium text-[#FFFFFF99] text-lg text-center max-w-[320px] md:max-w-[992px] md:text-[25px] md:leading-[37.5px]`}
         >
-          I can help you design, improve or build the product experience for
+          I can help you design, improve or build the product experience for 
           your new or existing products. Feel free to get in touch with me.
         </h3>
-        <h1 className="font-clashbold_ font-semibold text-xl text-white md:text-[60px] md:leading-[73.8px]">
+        <h1 className="font-clashbold font-semibold text-xl text-white md:text-[60px] md:leading-[73.8px]">
           Do You Have Any Ideas?
         </h1>
 
