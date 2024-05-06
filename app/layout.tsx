@@ -20,7 +20,7 @@ const keywords = [
 ];
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "VickyJay - Creative Frontend Engineer",
   description:
     "I enjoy creating frontend solutions with solid foundations, scalability, and excellent user experiences.",
   keywords: keywords,

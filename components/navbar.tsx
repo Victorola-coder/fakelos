@@ -7,7 +7,7 @@ const Navbar = () => {
       <main className="">
         <header
           className={`fixed z-40 top-0 md:relatives bg-[#061417]/90 pb-3 md:bg-transparent w-full scroll:bg-black pt-[20px] px-[32px] md:py-[30px] lg:px-[80px]`}
-        >z
+        >
           <nav className={`flex items-center justify-between`}>
             {/* <h2
               className={`font-clashbold font-semibold text-[18px] md:text-[25px] leading-[]`}
