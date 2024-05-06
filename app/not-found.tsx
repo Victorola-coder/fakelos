@@ -1,5 +1,6 @@
+import { Navbar } from "@/components";
 import Link from "next/link";
-import { Navbar } from "../components";
+Navbar;
 
 const ErrorPage = () => {
   return (

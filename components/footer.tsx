@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Copyright, FbIcon, IgIcon, InIcon, TwIcon } from "./svgs";
 
 const Footer = () => {
@@ -19,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="mt-[35px] md:mt-[65px] flex justify-start items-center  gap-[26px] md:gap-[40px]">
-          <a
+          <Link
             href="https://web.facebook.com/victortoluu"
             target="_blank"
             rel="noreferrer"
@@ -29,8 +30,8 @@ const Footer = () => {
               fill={`#FFFFFF99`}
               className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-[#0a1c20]`}
             />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://twitter.com/HeyVickyJay"
             target="_blank"
             rel="noreferrer"
@@ -40,8 +41,8 @@ const Footer = () => {
               fill={`#FFFFFF99`}
               className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-1  transition-all duration-500 hover:bg-[#0a1c20]`}
             />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.instagram.com/vickyjayox"
             target="_blank"
             rel="noreferrer"
@@ -51,8 +52,8 @@ const Footer = () => {
               fill={`#FFFFFF99`}
               className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-[#0a1c20]`}
             />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.linkedin.com/in/victor-olatunji-889568246"
             target="_blank"
             rel="noreferrer"
@@ -62,7 +63,7 @@ const Footer = () => {
               fill={`#FFFFFF99`}
               className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-0.5  transition-all duration-700 hover:bg-[#0a1c20]`}
             />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

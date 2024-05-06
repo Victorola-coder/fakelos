@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { LocationIcon, MailIcon, PhoneIcon } from "./svgs";
+import Link from "next/link"
 
 const Contact = () => {
   const [timeOfDay, setTimeOfDay] = useState(getTimeOfDay());
@@ -50,12 +51,12 @@ const Contact = () => {
               className={`w-[30px] h-[30px] p-2 md:p-[5px] bg-[#061417] md:w-[36px] md:h-[36px]`}
             />
           </div>
-          <a
+          <Link
             className={`text-[#FFFFFF99] font-medium text-base md:text-[20px] md:leading-[30px]`}
             href="mailto:victoluolatunji@gmail.com"
           >
             victoluolatunji@gmail.com
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col items-center gap-[10px]">
           <div className="bg-gradient-to-r to-[#CFFAFF] from-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[50px]">
@@ -63,12 +64,12 @@ const Contact = () => {
               className={`w-[30px] h-[30px] p-2 md:p-[5px] bg-[#061417] md:w-[36px] md:h-[36px]`}
             />
           </div>
-          <a
+          <Link
             href="tel:+2349075789680"
             className={`text-[#FFFFFF99] tex-base font-medium md:text-[20px] md:leading-[30px]`}
           >
             +2349075789680
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col items-center gap-[10px]">
           <div className="bg-gradient-to-l from-[#CFFAFF] to-[#CFFAFF00] pr-[1px] pt-[1px] max-w-[75px] max-h-[75px]">

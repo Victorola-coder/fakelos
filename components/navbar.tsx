@@ -21,7 +21,7 @@ const Navbar = () => {
               </h4>
             </Link>
             <div className="text-[#FFFFFF99] hover:text-white transition-all duration-300">
-              <a
+              <Link
                 href="https://www.github.com/victorola-coder"
                 target="_blank"
                 rel="noreferrer"
@@ -34,7 +34,7 @@ const Navbar = () => {
                     github
                   </p>
                 </span>
-              </a>
+              </Link>
             </div>
           </nav>
         </header>
